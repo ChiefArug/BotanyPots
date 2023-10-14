@@ -1,4 +1,13 @@
 {
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:plains_mud",
+        "regions_unexplored:plains_dirt"
+      ]
+    }
+  ],
   "type": "botanypots:pot_interaction",
   "held_ingredient": {
     "item": "minecraft:potion",
@@ -11,14 +20,14 @@
   ],
   "soil_ingredient": [
     {
-      "item": "minecraft:dirt"
+      "item": "regions_unexplored:plains_dirt"
     },
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "regions_unexplored:plains_coarse_dirt"
     }
   ],
   "soil_output": {
-    "item": "minecraft:mud",
+    "item": "regions_unexplored:plains_mud",
     "count": 1
   },
   "sound": {
