@@ -3,26 +3,29 @@
     {
       "type": "bookshelf:item_exists",
       "values": [
-        "regions_unexplored:tsubaki"
+        "regions_unexplored:duskmelon"
       ]
     }
   ],
   "type": "botanypots:crop",
   "seed": {
-    "item": "regions_unexplored:tsubaki"
+    "item": "regions_unexplored:duskmelon"
   },
   "categories": [
-    "dirt"
+    "dirt",
+    "grass",
+    "farmland"
   ],
   "growthTicks": 1200,
   "display": {
-    "block": "regions_unexplored:tsubaki"
+    "type": "botanypots:aging",
+    "block": "regions_unexplored:duskmelon"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "regions_unexplored:tsubaki"
+        "item": "regions_unexplored:duskmelon"
       }
     }
   ]
